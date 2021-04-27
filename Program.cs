@@ -13,7 +13,8 @@ namespace ForGit
             Console.WriteLine("Hello there");
             Random r = new Random();
             Console.WriteLine(r.Next(1, 100));
-            Console.ReadKey
+            Console.WriteLine(r.Next(1, 100) + r.Next(1, 100));
+            Console.ReadKey();
         }
     }
 }
