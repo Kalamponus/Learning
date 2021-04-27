@@ -11,6 +11,9 @@ namespace ForGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hello there");
+            Random r = new Random();
+            Console.WriteLine(r.Next(1, 100));
+            Console.ReadKey
         }
     }
 }
