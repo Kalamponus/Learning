@@ -14,6 +14,7 @@ namespace ForGit
             Random r = new Random();
             Console.WriteLine(r.Next(1, 100));
             Console.WriteLine(r.Next(1, 100) + r.Next(1, 100));
+            Console.WriteLine(r.Next(1, 100) * r.Next(1, 100));
             Console.ReadKey();
         }
     }
